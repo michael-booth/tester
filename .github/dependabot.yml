@@ -4,4 +4,8 @@ updates:
     directory: /
     schedule:
       interval: "daily"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
     
