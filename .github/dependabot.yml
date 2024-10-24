@@ -8,4 +8,6 @@ updates:
       all-deps:
         patterns:
           - "*"
-    
+        update-types:
+          - "minor"
+          - "patch"
