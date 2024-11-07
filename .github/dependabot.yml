@@ -1,7 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: /
+    directories:
+      - /doesnotexist
+      - /
     schedule:
       interval: "daily"
     groups:
