@@ -3,7 +3,6 @@ updates:
   - package-ecosystem: npm
     directories:
       - /
-      - /doesnotexist
     schedule:
       interval: "daily"
     groups:
