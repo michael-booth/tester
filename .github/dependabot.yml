@@ -10,7 +10,7 @@ updates:
     groups:
       all-deps:
         patterns:
-          - "*"
+          - "js-yaml"
         update-types:
           - "minor"
           - "patch"
