@@ -1,6 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: npm
+    allow:
+      - dependency-name: "js-yaml"
     directories:
       - /
     schedule:
