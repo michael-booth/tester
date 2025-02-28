@@ -7,10 +7,14 @@ updates:
       - /
     schedule:
       interval: "daily"
-    groups:
-      all-deps:
-        patterns:
-          - "js-yaml"
-        update-types:
-          - "minor"
-          - "patch"
+
+  - package-ecosystem: npm
+    allow:
+      - dependency-name: "js-yaml"
+    directories:
+      - /
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "js-yaml"
+        update-types: ["version-update:semver-major"]
