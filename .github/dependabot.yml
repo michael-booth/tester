@@ -1,20 +1,9 @@
 version: 2
 updates:
-  - package-ecosystem: npm
+  - package-ecosystem: "npm"
     allow:
       - dependency-name: "js-yaml"
     directories:
       - /
     schedule:
       interval: "daily"
-
-  - package-ecosystem: npm
-    allow:
-      - dependency-name: "js-yaml"
-    directories:
-      - /
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "js-yaml"
-        update-types: ["version-update:semver-major"]
