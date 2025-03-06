@@ -7,3 +7,8 @@ updates:
       - /
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "handlebars"
+        update-types: ["< 0.x"]
