@@ -11,4 +11,4 @@ updates:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
       - dependency-name: "handlebars"
-        update-types: ["< 0.x"]
+        versions: ["< 0.x"]
