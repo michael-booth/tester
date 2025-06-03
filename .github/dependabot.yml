@@ -31,7 +31,7 @@ updates:
 
   - package-ecosystem: uv
     directories:
-      - /PEP-621
+      - /PEP-621-uv
     allow:
       - dependency-name: "*"
         dependency-type: "direct"
