@@ -28,3 +28,9 @@ updates:
       - uv-PEP-751
     schedule:
       interval: "daily"
+
+  - package-ecosystem: uv
+    directories:
+      - /PEP-621
+    schedule:
+      interval: "daily"      
