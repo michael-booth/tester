@@ -21,3 +21,10 @@ updates:
       - /setup-py
     schedule:
       interval: "daily"
+
+  - package-ecosystem: uv
+    directories:
+      - uv
+      - uv-PEP-751
+    schedule:
+      interval: "daily"
