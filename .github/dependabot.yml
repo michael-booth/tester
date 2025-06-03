@@ -32,5 +32,6 @@ updates:
   - package-ecosystem: uv
     directories:
       - /PEP-621
+    dependency-type: "direct"
     schedule:
       interval: "daily"      
