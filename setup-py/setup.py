@@ -1,7 +1,7 @@
 from setuptools import setup
 
 install_requires = [
-    'requests==2.28.1',
+    'requests==2.32.4',
 ]
 
 dev_requires = [
