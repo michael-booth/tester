@@ -5,7 +5,7 @@ install_requires = [
 ]
 
 dev_requires = [
-    'pytest==7.2.2',
+    'pytest==8.4.1',
 ]
 
 
